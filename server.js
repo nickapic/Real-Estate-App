@@ -15,7 +15,6 @@ app.use("/api/v1/profile", require("./routes/api/profile"));
 app.use("/api/v1/rentproperties", require("./routes/api/rentproperties"));
 app.use("/api/v1/sellproperties", require("./routes/api/sellproperties"));
 
-app.route;
 app.listen(PORT, () =>
   console.log(
     `Hello sir whattup  your server thingy is running on port ${PORT}`

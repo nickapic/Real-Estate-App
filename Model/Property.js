@@ -22,6 +22,11 @@ const PropertyScehma = new mongoose.Schema({
     required: true,
     minlength: 50,
   },
+  purpose: {
+    type: String,
+    enum: ["sell", "rent"],
+    required: true,
+  },
 });
 
 module.exports = Property = mongoose.model("property", PropertyScehma);
